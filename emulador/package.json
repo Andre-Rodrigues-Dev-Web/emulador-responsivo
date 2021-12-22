@@ -1,0 +1,36 @@
+{
+  "name": "emulador-aplicacoes-responsivas",
+  "version": "1.0.0",
+  "description": "emulador para testes de aplicacoes responsivas",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre-Rodrigues-Dev-Web/emulador-responsivo.git"
+  },
+  "keywords": [
+    "emulador",
+    "responsivo",
+    "testes",
+    "apps",
+    "responsivos"
+  ],
+  "win": {
+    "icon": "assets/img/mobile.jpg" 
+  },
+  "directories": {
+    "buildResources": "public"
+  },
+  "author": "Andre Laurentino Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre-Rodrigues-Dev-Web/emulador-responsivo/issues"
+  },
+  "homepage": "https://github.com/Andre-Rodrigues-Dev-Web/emulador-responsivo#readme",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  }
+}
